@@ -17,8 +17,16 @@ body{
 }
 header{
     background-color: var(--amarillo);
+    width:100vw;
+    margin: auto;
+    
 }
-
+header img{
+    width: 100%;
+}
+.contenedor-nav{
+    display:none;
+}
 .logo{
     width: 50%;
     padding: 10px;
@@ -28,6 +36,7 @@ header{
     padding: 5px;
     background-color: #fff;
     color: var(--gris-oscuro);
+    width: 60vw;
 }
 .icono-buscador i{
     margin-left: 10px;
@@ -110,7 +119,11 @@ article img{
      border-top: 1px solid #ebebeb;
     padding: 15px;
 }
-
+.fa-truck{
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px;
+}
 @media (min-width: 361px){
     h4.descripciones{
         
@@ -121,9 +134,23 @@ article{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
       
 }
+.contenedor-nav{
+    display:block;
+}
 }
 
 @media (min-width: 769px){
-
+    h4.descripciones{
+        
+        display:block;
+    
+    }
+article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+      
+}
+.contenedor-nav{
+    display:block;
+}
     
 }
