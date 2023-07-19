@@ -172,6 +172,26 @@ article img {
   .contenedor-nav {
     display: block;
   }
+  .header-superior{
+  display:flex;
+  justify-content: center;
+}
+.burger-menu{
+  display: none;
+}
+  .contenedor-nav{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0 10px 0;
+  }
+  .contenedor-nav ul{
+    display: flex;
+    
+  }
+  .contenedor-nav ul li{
+    padding: 0 10px 0 10px;
+    
+  }
 }
 
 @media (min-width: 769px) {
@@ -185,7 +205,30 @@ article img {
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
     width: 20%;
   }
-  .contenedor-nav {
-    display: block;
+  
+  
+  .contenedor-nav{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0 10px 0;
   }
+  .contenedor-nav ul{
+    display: flex;
+    
+  }
+  .contenedor-nav ul li{
+    padding: 0 10px 0 10px;
+    
+  }
+  .logo {
+  width: 225px;
+  padding: 10px;
+}
+.header-superior{
+  display:flex;
+  align-items: center;
+}
+.burger-menu{
+  display: none;
+}
 }
