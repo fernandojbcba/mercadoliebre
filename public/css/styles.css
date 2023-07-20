@@ -3,6 +3,7 @@
   padding: 0px;
   box-sizing: border-box;
 }
+
 :root {
   --amarillo: #eac926;
   --azul: #03264c;
@@ -11,6 +12,7 @@
   --gris-claro: #ebebeb;
   --verde: #39b54a;
 }
+
 body {
   font-family: "Roboto", sans-serif;
   background-color: var(--gris-claro);
@@ -31,31 +33,27 @@ header img {
   padding: 10px;
 }
 .buscador {
-  display:flex;
+  display: flex;
   align-items: center;
   padding: 5px;
   width: 50%;
-position: relative;
-border-radius:  10px;
+  position: relative;
+  border-radius: 10px;
 }
-.input{
-    background-color: #fff;
-    border-radius:  10px;
-    color:var(--gris-oscuro);
-    padding: 5px;
-    width: 100%;
-   
+.input {
+  background-color: #fff;
+  border-radius: 10px;
+  color: var(--gris-oscuro);
+  padding: 5px;
+  width: 100%;
 }
 .icono-buscador {
-    background-color: #fff;
-    border-left: 1px solid #000;
-    color: var(--gris-oscuro);
-   position: absolute;
-   right: 10px;
-   padding:3px;
-   
- 
-   
+  background-color: #fff;
+  border-left: 1px solid #000;
+  color: var(--gris-oscuro);
+  position: absolute;
+  right: 10px;
+  padding: 3px;
 }
 .texto-formasdepago {
   text-align: center;
@@ -154,10 +152,9 @@ article img {
   justify-content: center;
   flex-wrap: wrap;
 }
-.header-superior{
-    display: flex;
+.header-superior {
+  display: flex;
   flex-wrap: wrap;
-
 }
 @media (min-width: 361px) {
   h4.descripciones {
@@ -172,25 +169,23 @@ article img {
   .contenedor-nav {
     display: block;
   }
-  .header-superior{
-  display:flex;
-  justify-content: center;
-}
-.burger-menu{
-  display: none;
-}
-  .contenedor-nav{
+  .header-superior {
+    display: flex;
+    justify-content: center;
+  }
+  .burger-menu {
+    display: none;
+  }
+  .contenedor-nav {
     display: flex;
     justify-content: space-around;
     margin: 10px 0 10px 0;
   }
-  .contenedor-nav ul{
+  .contenedor-nav ul {
     display: flex;
-    
   }
-  .contenedor-nav ul li{
+  .contenedor-nav ul li {
     padding: 0 10px 0 10px;
-    
   }
 }
 
@@ -205,30 +200,27 @@ article img {
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
     width: 20%;
   }
-  
-  
-  .contenedor-nav{
+
+  .contenedor-nav {
     display: flex;
     justify-content: space-around;
     margin: 10px 0 10px 0;
   }
-  .contenedor-nav ul{
+  .contenedor-nav ul {
     display: flex;
-    
   }
-  .contenedor-nav ul li{
+  .contenedor-nav ul li {
     padding: 0 10px 0 10px;
-    
   }
   .logo {
-  width: 225px;
-  padding: 10px;
-}
-.header-superior{
-  display:flex;
-  align-items: center;
-}
-.burger-menu{
-  display: none;
-}
+    width: 225px;
+    padding: 10px;
+  }
+  .header-superior {
+    display: flex;
+    align-items: center;
+  }
+  .burger-menu {
+    display: none;
+  }
 }

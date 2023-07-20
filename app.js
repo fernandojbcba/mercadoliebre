@@ -2,12 +2,13 @@
 const express = require('express');
 const app = express();
 const path = require('path');
-app.use(express.static('public'))
+const publicPath = path.join(__dirname, './public'); //Hacer publicos los archivos de la carpeta public
+app.use(express.static(publicPath));
 
     
 
-app.listen(3000, () => {
-  console.log('Server is running on http://localhost:3000');
+app.listen(3010, () => {
+  console.log('Server is running on http://localhost:3010');
 });
 
 app.get('/', (req, res) => {

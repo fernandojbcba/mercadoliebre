@@ -6,6 +6,7 @@
 
     <title>Mercadoliebre</title>
     <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/login.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -25,13 +26,16 @@
           src="/img/logo-mercado-liebre.svg"
           alt="logo mercado libre"
         />
-        <div Class="buscador">
-          <div Class="input">Buscar</div>
-          <div class="icono-buscador">
-            <i class="fa fa-search"></i>
-          </div>
+        <div class="buscador">
+          <input
+            type="search"
+            name="barraBusqueda"
+            placeholder="Buscar productos, marcas"
+          />
+          <button><i class="fas fa-search"></i></button>
         </div>
-
+      </div>
+      <div>
         <p class="texto-formasdepago">
           <i class="fas fa-hand-holding-usd"></i>Compra en cuotas y sin tarjeta
           de credito
@@ -47,7 +51,9 @@
         </ul>
         <ul>
           <li>
-            <a href="/register">Crea tu cuenta <i class="far fa-id-card"></i></a>
+            <a href="/register"
+              >Crea tu cuenta <i class="far fa-id-card"></i
+            ></a>
           </li>
           <li>
             <a href="/login">ingresa <i class="fas fa-sign-in-alt"></i></a>
@@ -62,20 +68,40 @@
       </div>
       <img src="/img/img-home-banner.jpg" alt="img-home-banner" />
     </header>
-    <main>
-      <form action="/">
+    <main class="mainLogin">
+      <div class="div-login">
+        <h1 class="h1login">Ingresa</h1>
+        <i class="fas fa-sign-in-alt"></i>
+      </div>
 
-        <label for="username">Nombre de usuari@:</label>
-        <input type="text" id="username" name="username">
+      <form action="/" method="GET">
+        <div class="userName">
+          <label for="userName">Nombre de Usuario</label>
+          <input type="text" name="userName" id="userName" required />
+          <span class="feedback"></span>
+        </div>
 
-        <label for="password">Contraseña:</label>
-        <input type="password" id="password" name="password">
-        
-        <input type="submit" value="Enviar">
+        <div class="password">
+          <label for="userPassword">Contraseña</label>
+          <input
+            type="password"
+            name="userPassword"
+            id="userPassword"
+            required
+          />
+          <span class="feedback"></span>
+        </div>
+
+        <div class="loginButton">
+          <input type="submit" />
+        </div>
       </form>
-
-        
+      <div class="password-recovery">
+        <p>Olvidaste tu contraseña?</p>
+        <p><a href="">Haz click aquí</a></p>
+      </div>
     </main>
+
     <footer>
       <section class="content-footer">
         <i class="fas fa-credit-card"></i>
