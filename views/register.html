@@ -6,7 +6,7 @@
 
     <title>Mercadoliebre</title>
     <link rel="stylesheet" href="/css/styles.css" />
-    <link rel="stylesheet" href="/css/register.css" />
+ 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -77,14 +77,20 @@
             name="nombreCompleto"
             id="fullname"
             required
-            placeholder="'Nombre y apellido'"
+            placeholder="Nombre y apellido"
           />
           <span class="feedback"></span>
         </div>
 
         <div class="userName">
           <label for="user">Nombre de Usuario</label>
-          <input type="text" name="nombreUsuario" id="user" required />
+          <input
+            type="text"
+            name="nombreUsuario"
+            id="user"
+            placeholder="Nombre de Usuario"
+            required
+          />
           <span class="feedback"></span>
         </div>
 
@@ -100,14 +106,14 @@
           <span class="feedback"></span>
         </div>
 
-        <div class="address">
-          <label for="address">Domicilio</label>
+        <div class="email">
+          <label for="email">E-mail</label>
           <input
             type="text"
-            name="domicilio"
-            id="address"
+            name="email"
+            id="email"
             required
-            placeholder="'Calle falsa 1234'"
+            placeholder="E-mail"
           />
           <span class="feedback"></span>
         </div>
@@ -115,62 +121,58 @@
         <div class="sellOrBuy">
           <label>Perfil del Usuario</label>
           <div class="sellOrBuy1">
-            Comprar
             <input type="radio" name="userProfile" value="comprar" required />
+            Comprar
           </div>
           <div class="sellOrBuy1">
-            Vender
             <input type="radio" name="userProfile" value="vender" required />
+            Vender
           </div>
         </div>
 
         <div class="interests">
-          <label for="interest">Intereses</label>
+          <label for="interest">Intereses </label>
           <div>
             <div class="interests-div">
-              Electro
               <input
                 type="checkbox"
                 id="interest"
                 value="electro"
                 name="interests"
-              />
+              />Electro
             </div>
             <div class="interests-div">
-              Moda
               <input
                 type="checkbox"
                 id="interest"
                 value="moda"
                 name="interests"
               />
+              Moda
             </div>
             <div class="interests-div">
-              Hogar
               <input
                 type="checkbox"
                 id="interest"
                 value="hogar"
                 name="interests"
-              />
+              />Hogar
             </div>
             <div class="interests-div">
-              Jugueteria
               <input
                 type="checkbox"
                 id="interest"
                 value="jugueteria"
                 name="interests"
-              />
+              />Jugueteria
             </div>
             <div class="interests-div">
-              Vida sana
               <input
                 type="checkbox"
                 id="interest"
                 value="vidaSana"
                 name="interests"
-              />
+              />Vida sana
             </div>
           </div>
         </div>

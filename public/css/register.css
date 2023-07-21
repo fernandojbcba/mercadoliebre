@@ -1,147 +1,163 @@
 .mainRegister {
   width: 100%;
-  background-color: #eac926;
+  background-color: #ebebeb;
   padding: 30px 10px 0px 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 15px;
 }
 
 .h1register {
   text-align: center;
-  padding-bottom: 25px;
   font-size: 24px;
   color: #666;
   background-color: #ebebeb;
-  border-bottom: 1px solid #666;
+    width: 100%;
 }
 
 .main-form {
   background-color: #ebebeb;
+  width: 100%;
 }
 
 .fullname {
   margin-bottom: 18px;
   display: flex;
-  justify-content: space-around;
-  padding-right: 15px;
-  padding-top: 20px;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
 }
 
 .fullname label {
   font-weight: bold;
   font-size: 13px;
-  width: 45%;
+  width: 100%;
   text-align: center;
 }
 
 .fullname input {
   text-align: center;
-  width: 45%;
+  justify-content: center;
+  width: 100%;
   height: 4vh;
+  border: none;
+  border-radius: 5px;
 }
 
 .userName {
   margin-bottom: 18px;
   display: flex;
-  justify-content: space-around;
-  padding-right: 15px;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
 }
 
 .userName label {
   font-weight: bold;
   font-size: 13px;
-  width: 45%;
+  width: 100%;
   text-align: center;
 }
 
 input#user {
   text-align: center;
-  width: 45%;
+  width: 100%;
   height: 4vh;
+  border: none;
+  border-radius: 5px;
 }
 
 .birthDate {
   margin-bottom: 18px;
   display: flex;
-  justify-content: space-around;
-  padding-right: 15px;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
 }
 
 .birthDate label {
   font-weight: bold;
   font-size: 13px;
-  width: 45%;
+  width: 100%;
   text-align: center;
 }
 
 .birthDate input {
-  width: 45%;
+  width: 100%;
   height: 4vh;
   text-align: center;
+  border: none;
+  border-radius: 5px;
 }
 
-.address {
-  margin-bottom: 30px;
+.email {
+  margin-bottom: 18px;
   display: flex;
-  justify-content: space-around;
-  padding-right: 15px;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
 }
 
-.address label {
+.email label {
   font-weight: bold;
   font-size: 13px;
-  width: 45%;
+  width: 100%;
   text-align: center;
 }
 
-.address input {
+.email input {
   text-align: center;
-  width: 45%;
+  width: 100%;
   height: 4vh;
+  border: none;
+  border-radius: 5px;
 }
 
 .sellOrBuy {
   margin-bottom: 30px;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  flex-direction: column;
+  align-items: left;
 }
 
 .sellOrBuy label {
   font-weight: bold;
   font-size: 13px;
-  text-align: center;
-  width: 45%;
-  text-align: center;
+  width: 100%;
+  text-align: left;
+
 }
 
 .sellOrBuy1 {
   font-size: 13px;
-  padding-right: 20px;
+  padding-left: 20px;
 }
 
 .interests {
+  margin-bottom: 30px;
   display: flex;
   flex-direction: column;
-  text-align: left;
-  margin: 5px;
-  margin-bottom: 30px;
+  align-items: left;
 }
 
 .interests label {
   font-weight: bold;
   font-size: 13px;
-  width: 45%;
-  text-align: center;
+  width: 100%;
+  text-align: left;
   margin-bottom: 13px;
 }
 
 .interests input {
-  margin-left: 10px;
+  margin-right: 10px;
+
 }
 
 .interests-div {
   display: flex;
   align-items: center;
-  margin-left: 30px;
+  margin-left: 15px;
   font-size: 12px;
   margin-bottom: 3.5px;
 }
@@ -166,367 +182,89 @@ input#user {
 
 .password {
   display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 40px;
-  padding-right: 15px;
+  flex-direction: column;
+
+  
 }
 
 .password-div1 {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+
   width: 100%;
   margin-bottom: 10px;
 }
 
 .password-div2 {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+
   width: 100%;
 }
 
 .password-div1 label {
   font-size: 13px;
   font-weight: bold;
-  width: 45%;
+  width: 100%;
 }
 
 .password-div2 label {
   font-size: 13px;
   font-weight: bold;
-  width: 45%;
+  width: 100%;
 }
 
 input#password {
-  width: 45%;
+  width: 100%;
+  border-radius: 5px;
+  height: 30px;
 }
 
 .div-registerButtons {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
 }
 
 .registerButtons {
-  width: 28%;
+  width: 50%;
   padding: 0px 2px 0px 2px;
 }
 
 .registerButtons input {
   font-weight: bold;
   width: 100%;
-  margin-top: 10px;
-  margin-bottom: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   height: 30px;
   background-color: #ebebeb;
+  border-radius: 5px;
 }
 
 .registerButtons input:hover {
   background-color: #0022aa;
 }
 
-.blankspace {
-  height: 5vh;
-}
 
-.main-footer {
-  border-top: 2px solid grey;
-  border-bottom: 2px solid grey;
-  background-color: #ffffff;
-  font-size: 12px;
-}
-
-.main-footer i {
-  color: #1259c3;
-  font-size: 2em;
-  margin-bottom: 10px;
-  margin-top: 15px;
-}
-
-.main-footer h3 {
-  font-weight: bold;
-  font-size: 16px;
-  color: #666;
-}
-
-.main-footer p {
-  color: #666;
-}
-
-.main-footer .p-copyright {
-  margin-top: 30px;
-  margin-bottom: 20px;
-}
 
 @media (min-width: 361px) {
   .mainRegister {
-    padding-bottom: 10px;
+    width: 60%;
+   
   }
 
-  .h1register {
-    font-size: 28px;
-    margin-top: 10px;
-    padding: 10px 0px 30px 0px;
-    border-bottom: 2px solid #666;
-  }
-
-  .fullname {
-    margin-bottom: 25px;
-    padding-right: 25px;
-  }
-
-  .fullname label {
-    font-size: 16px;
-  }
-
-  .fullname input {
-    height: 5vh;
-    font-size: 14px;
-    border: 2px solid #666;
-  }
-
-  .userName {
-    margin-bottom: 25px;
-    padding-right: 25px;
-  }
-
-  .userName label {
-    font-size: 16px;
-  }
-
-  input#user {
-    height: 5vh;
-    border: 2px solid #666;
-  }
-
-  .birthDate {
-    margin-bottom: 25px;
-    padding-right: 25px;
-  }
-
-  .birthDate label {
-    font-size: 16px;
-  }
-
-  .birthDate input {
-    height: 5vh;
-    font-size: 14px;
-    border: 2px solid #666;
-  }
-
-  .address {
-    margin-bottom: 45px;
-    padding-right: 25px;
-  }
-
-  .address label {
-    font-size: 16px;
-  }
-
-  .address input {
-    height: 5vh;
-    font-size: 14px;
-    border: 2px solid #666;
-  }
-
-  .sellOrBuy {
-    margin-bottom: 45px;
-    padding-right: 25px;
-  }
-
-  .sellOrBuy label {
-    font-size: 16px;
-  }
-
-  .sellOrBuy1 {
-    font-size: 16px;
-  }
-
-  .interests {
-    margin-bottom: 45px;
-  }
-
-  .interests label {
-    font-size: 16px;
-  }
-
-  .interests-div {
-    font-size: 16px;
-  }
-
-  .avatar {
-    margin-bottom: 45px;
-  }
-
-  .avatar label {
-    font-size: 16px;
-  }
-
-  .avatar input {
-    font-size: 14px;
-  }
-
-  .password {
-    margin-bottom: 50px;
-    padding-right: 25px;
-  }
-
-  .password label {
-    font-size: 16px;
-  }
-
-  .password input {
-    height: 5vw;
-    border: 2px solid #666;
-  }
-
-  .registerButtons {
-    width: 22vw;
-  }
-
-  .main-footer h3 {
-    font-size: 18px;
-  }
-
-  .main-footer p {
-    font-size: 14px;
-  }
 }
 
 @media (min-width: 769px) {
   .mainRegister {
-    padding-bottom: 30px;
+    width: 45%;
+   
   }
-
-  .h1register {
-    font-size: 32px;
-    margin-top: 20px;
-    padding: 20px 0px 40px 0px;
-  }
-
-  .fullname {
-    margin-bottom: 33px;
-    height: 9vh;
-    padding-right: 35px;
-  }
-
-  .fullname label {
-    font-size: 20px;
-  }
-
-  .fullname input {
-    height: 5vh;
-    width: 44%;
-    font-size: 16px;
-  }
-
-  .userName {
-    margin-bottom: 33px;
-    height: 5.5vh;
-    padding-right: 35px;
-  }
-
-  .userName label {
-    font-size: 20px;
-  }
-
-  input#user {
-    height: 5vh;
-    width: 44%;
-  }
-
-  .birthDate {
-    margin-bottom: 33px;
-    height: 5.5vh;
-    padding-right: 35px;
-  }
-
-  .birthDate label {
-    font-size: 20px;
-  }
-
-  .birthDate input {
-    height: 5vh;
-    font-size: 16px;
-    width: 44%;
-  }
-
-  .address {
-    margin-bottom: 55px;
-    height: 5.5vh;
-    padding-right: 35px;
-  }
-
-  .address label {
-    font-size: 20px;
-  }
-
-  .address input {
-    height: 5vh;
-    font-size: 16px;
-    width: 44%;
-  }
-
-  .sellOrBuy {
-    margin-bottom: 55px;
-    height: 5.5vh;
-    padding-right: 35px;
-  }
-
-  .sellOrBuy label {
-    font-size: 20px;
-  }
-
-  .sellOrBuy1 {
-    font-size: 20px;
-  }
-
-  .interests {
-    margin-bottom: 55px;
-  }
-
-  .interests label {
-    font-size: 20px;
-  }
-
-  .interests-div {
-    font-size: 20px;
-    margin-left: 200px;
-  }
-
-  .avatar {
-    margin-bottom: 55px;
-  }
-
-  .avatar label {
-    font-size: 20px;
-  }
-
-  .avatar input {
-    font-size: 16px;
-  }
-
-  .password {
-    margin-bottom: 50px;
-    padding-right: 35px;
-  }
-
-  .password label {
-    font-size: 20px;
-    margin-bottom: 15px;
-  }
-
-  input#password {
-    width: 44%;
-    height: 5vh;
-  }
-
-  .registerButtons {
-    padding-bottom: 45px;
-    width: 26vw;
-  }
-
-  .registerButtons input {
-    font-size: 18px;
-    height: 6vh;
+}
+@media (min-width: 1000px) {
+  .mainRegister {
+    width: 35%;
+   
   }
 }
