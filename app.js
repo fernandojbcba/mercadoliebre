@@ -7,8 +7,8 @@ app.use(express.static(publicPath));
 
     
 
-app.listen(3000, () => {
-  console.log('Server is running on http://localhost:3000');
+app.listen(process.env.PORT || 3000, function() {
+  console.log("Servidor corriendo");
 });
 
 app.get('/', (req, res) => {
